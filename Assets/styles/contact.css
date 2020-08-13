@@ -1,0 +1,54 @@
+section{
+    background-color: #7f78d2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2px;
+}
+.email , .mobile ,.location{
+    background-color: #ffe2ff;
+    padding: 0px 20px;
+    margin: 0px 20px;
+    width: calc(33% - 20px);
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.card-icon{
+    font-size: 28px;
+    background-color: #fdcb9e;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+.email:hover .card-icon ,.mobile:hover .card-icon,.location:hover .card-icon{
+    background: none;
+    color: #fdcb9e;
+    transform: scale(1.6);
+}
+.email p ,.mobile p ,.location p{
+    margin-top: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    max-height: 0px;
+    transition: .3s linear;
+    opacity: 0;
+}
+.email:hover p ,.mobile:hover p,.location:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
