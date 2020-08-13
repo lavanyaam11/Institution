@@ -10,7 +10,6 @@ body{
 .about{
     padding-top: 100px;
     height: 100vh;
-    overflow: scroll;
     background-image: url("https://positiveroutines.com/wp-content/uploads/2018/12/stack-of-books-against-blue-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
